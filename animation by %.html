@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>square moving</title>
+</head>
+<style>
+    .top {
+        background-color: darkblue;
+    }
+
+    .bottom {
+        background-color: darkcyan;
+        width: 250px;
+        height: 250px;
+        position: relative;
+        animation-name: nimra;
+        animation-name: programmer;
+        animation-duration: 6s;
+        font-weight: bolder;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+
+    }
+
+    @keyframes programmer {
+        0% {
+            top: 0px;
+            left: 0px;
+        }
+
+        25% {
+            top: 250px;
+            left: 0px;
+        }
+
+        75% {
+            top: 250px;
+            left: 250px;
+        }
+
+        100% {
+            top: 0px;
+            left: 250px;
+        }
+    }
+
+    @keyframes nimra {
+        from {
+            width: 300px;
+        }
+
+        to {
+            width: 400px;
+        }
+    }
+</style>
+
+<body>
+    <div class="top">
+        <div class="bottom">
+            <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+            <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+            <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+            <p>~~~~~moving square box~~~~~~~~~</p>
+            <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+            <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+            <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+        </div>
+    </div>
+</body>
+
+</html>
