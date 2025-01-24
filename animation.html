@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>animation demo</title>
+</head>
+<style>
+    .outer {
+        background-color: rgb(255, 0, 157);
+    }
+
+    .inner {
+        text-shadow: 0cqi;
+        font-weight: bold;
+        background-color: pink;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        animation-name: nimra;
+        animation-duration: 5s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: 4;
+        animation-delay: 1s;
+    }
+
+
+    @keyframes nimra {
+        from {
+            width: 250px;
+        }
+
+        to {
+            width: 400px;
+        }
+    }
+</style>
+
+<body>
+    <div class="outer">
+        <div class="inner">
+            <p>________________________</p>
+            <p> |||||||I am pinky|||||||</p>
+            <p>________________________</p>
+        </div>
+    </div>
+</body>
+
+</html>
